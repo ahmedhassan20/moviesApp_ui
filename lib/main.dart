@@ -34,7 +34,7 @@ class MyProfileApp extends StatelessWidget {
                   child: CircleAvatar(
                     radius: 80,
                     backgroundImage: AssetImage(
-                      'assets/images/mostafa.png',
+                      'assets/images/ahmed.jpg',
                     ),
                   ),
                 ),
