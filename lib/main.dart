@@ -39,11 +39,11 @@ class MyProfileApp extends StatelessWidget {
                   ),
                 ),
                 const Text(
-                  'Mostafa Helaly',
+                  'Ahmed Hassan',
                   style: TextStyle(
                     fontSize: 30,
                     color: Colors.white,
-                   fontFamily: 'Pacifico',
+                    fontFamily: 'Pacifico',
                   ),
                 ),
                 const Text(
@@ -54,17 +54,18 @@ class MyProfileApp extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                const SizedBox(height: 20,),
+                const SizedBox(
+                  height: 20,
+                ),
                 Container(
                   padding: const EdgeInsets.all(15),
-                  margin: const EdgeInsets.only(top:20,left: 30,right: 30),
+                  margin: const EdgeInsets.only(top: 20, left: 30, right: 30),
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10),
                   ),
-                  
                   child: Row(
-                    children:const [
+                    children: const [
                       Icon(
                         Icons.email,
                         color: Color(0xff213975),
@@ -72,25 +73,26 @@ class MyProfileApp extends StatelessWidget {
                       SizedBox(
                         width: 10,
                       ),
-                      Text("mostafa.helaly2810@gmail.com",style: TextStyle(
-                        fontSize: 16,
-                        color: Color(0xff213975),
-                        fontWeight: FontWeight.bold,
-                      ),),
-                      
+                      Text(
+                        "ahmedhassanali552@gmail.com",
+                        style: TextStyle(
+                          fontSize: 16,
+                          color: Color(0xff213975),
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                     ],
                   ),
                 ),
                 Container(
                   padding: const EdgeInsets.all(15),
-                  margin: const EdgeInsets.only(top:20,left: 30,right: 30),
+                  margin: const EdgeInsets.only(top: 20, left: 30, right: 30),
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10),
                   ),
-                  
                   child: Row(
-                    children:const [
+                    children: const [
                       Icon(
                         Icons.phone,
                         color: Color(0xff213975),
@@ -98,16 +100,17 @@ class MyProfileApp extends StatelessWidget {
                       SizedBox(
                         width: 10,
                       ),
-                      Text("+201000539192",style: TextStyle(
-                        fontSize: 16,
-                        color: Color(0xff213975),
-                        fontWeight: FontWeight.bold,
-                      ),),
-                      
+                      Text(
+                        "+201093954615",
+                        style: TextStyle(
+                          fontSize: 16,
+                          color: Color(0xff213975),
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                     ],
                   ),
                 )
-             
               ],
             ),
           ),
